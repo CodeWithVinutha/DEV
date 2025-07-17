@@ -1,4 +1,4 @@
-package com.example.screen_orientation;
+package com.example.prg1;
 import android.os.Bundle;
 import android.content.res.Configuration;
 import android.widget.TextView;
