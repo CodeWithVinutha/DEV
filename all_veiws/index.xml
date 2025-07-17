@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewLabel"
+            android:text="TextView: Hello, Android!"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editTextSample"
+            android:hint="EditText: Enter text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/buttonSample"
+            android:text="Button: Click me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewSample"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="ImageView: App Icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="10dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxSample"
+            android:text="CheckBox: Option 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupSample"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <RadioButton android:id="@+id/rb1" android:text="Radio 1"/>
+            <RadioButton android:id="@+id/rb2" android:text="Radio 2"/>
+        </RadioGroup>
+
+        <Switch
+            android:id="@+id/switchSample"
+            android:text="Switch: On/Off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <ToggleButton
+            android:id="@+id/toggleButtonSample"
+            android:textOff="Toggle: OFF"
+            android:textOn="Toggle: ON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <SeekBar
+            android:id="@+id/seekBarSample"
+            android:max="100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarSample"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progress="40"
+            android:max="100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerSample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <ListView
+            android:id="@+id/listViewSample"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingBarSample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:rating="3"
+            android:layout_marginBottom="10dp"/>
+
+        <DatePicker
+            android:id="@+id/datePickerSample"
+            android:calendarViewShown="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <TimePicker
+            android:id="@+id/timePickerSample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteSample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="AutoComplete: Type here"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</ScrollView>
